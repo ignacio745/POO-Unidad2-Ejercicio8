@@ -10,9 +10,6 @@ class Conjunto:
                 self.__elementos.append(elemento)
                 self.__elementos.sort()
 
-    def ordenar(self):
-        self.__elementos.sort()
-
     def getTamaño(self):
         return len(self.__elementos)
 
